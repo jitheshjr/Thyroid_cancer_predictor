@@ -7,25 +7,6 @@ This repository contains a full machine learning pipeline and an interactive **S
 
 The project is built using clinical and medical data, and designed for both educational and practical demonstration purposes.
 
----
-
-## 📂 Project Structure
-├── app.py # Streamlit application
-├── artifacts/ # Contains all model and preprocessing files
-│ ├── binning_edges_diagnosis.pkl
-│ ├── binning_edges_risk.pkl
-│ ├── diagnosis_predictor.pkl
-│ ├── risk_predictor.pkl
-│ ├── feature_columns_diagnosis.pkl
-│ ├── feature_columns_risk.pkl
-│ ├── scaler_diagnosis.pkl
-│ └── scaler_risk.pkl
-├── preprocessing/
-│ └── binary_classification.ipynb # Notebook containing full preprocessing and training
-│ └── multiclass_classification.ipynb # Notebook containing full preprocessing and training
-├── requirements.txt # Python dependencies
-├── .gitignore
-└── README.md # Project documentation
 
 ## 🧠 Models Overview
 
