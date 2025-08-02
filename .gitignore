@@ -1,1 +1,54 @@
-dm
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.venv/
+ENV/
+
+# Streamlit secrets
+.streamlit/secrets.toml
+
+# Ignore all pickle files globally...
+*.pkl
+
+# ...except those inside the models/ folder
+!models/*.pkl
+
+# Dataset and temporary data files
+*.csv
+*.xlsx
+*.json
+*.zip
+*.tar.gz
+*.db
+data/
+datasets/
+
+# Logs and cache
+*.log
+*.out
+*.tmp
+*.bak
+logs/
+.cache/
+*.cache/
+
+# IDE/editor files
+.vscode/
+.DS_Store
+*.swp
+*.swo
+
+# Distribution / packaging
+*.egg-info/
+dist/
+build/
+site/
+

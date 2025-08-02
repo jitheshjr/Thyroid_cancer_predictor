@@ -1,0 +1,15 @@
+# Core Libraries
+pandas==2.2.2
+numpy==2.0.2
+
+# Visualization
+seaborn==0.13.2
+matplotlib==3.10.0
+
+# Machine Learning & Preprocessing
+scikit-learn==1.6.1
+joblib==1.5.1
+scipy==1.16.0
+
+# App (only required if running locally)
+streamlit==1.35.0
